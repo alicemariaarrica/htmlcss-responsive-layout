@@ -4,12 +4,13 @@
 
 .main{
     font-family: 'montserrat';
+    font-size: 12px;
 }
 .header{
     text-align: center;
     color: orange;
     font-family: 'nerko one', cursive;
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 100;
     text-shadow:    .8px 2px 0px rgb(156, 147, 147),   /* Ombra in basso a destra */
     -2px 2px 0px #f6f5f3;  /* Ombra in basso a sinistra */
@@ -90,6 +91,11 @@ ul {
     }
 
 
+    .list-flex {
+        padding: 0;
+        list-style: none;
+    }
+    
 
 
 /* media query*/
@@ -105,7 +111,28 @@ text-align: start;
 
 .main{
     padding: 20px;
+    font-size: 25px;
 }
+
+
+
+.list-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.list-flex li {
+    margin-right: 20px;  /* Spazio tra gli elementi della lista */
+    margin-bottom: 10px; /* Spazio tra le righe se la lista si avvolge */
+}
+
+
+
+/*end query 768px*/
+
+
+
+
 
     @media screen and (min-width: 992px){
       
