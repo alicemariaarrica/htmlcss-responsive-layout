@@ -1,17 +1,29 @@
+*{
+    margin:0;
+}
 
-
-
+.main{
+    font-family: 'montserrat';
+}
 .header{
     text-align: center;
     color: orange;
     font-family: 'nerko one', cursive;
-  
-    font-size: 52px;
+    font-size: 12px;
+    font-weight: 100;
     text-shadow:    .8px 2px 0px rgb(156, 147, 147),   /* Ombra in basso a destra */
     -2px 2px 0px #f6f5f3;  /* Ombra in basso a sinistra */
     2px -2px 0px #f6f5f3;  /* Ombra in alto a destra */
     -2px -2px 0px #f6f5f3;  /* Ombra in alto a sinistra */
-  
+    
+}
+
+
+
+ul {
+    list-style-type: none;
+    padding: 4;  /* Opzionale: rimuove l'indentazione predefinita */
+    margin: 3;   /* Opzionale: rimuove il margine predefinito */
 }
 
 .container{
@@ -47,7 +59,7 @@
     justify-content: space-around;
 }
 
-.foodcategory{
+.food-category{
     text-align:start;
     color:  rgb(224, 216, 216);;
     font-family:Montserrat, 'Helvetica Neue', sans-serif;
@@ -76,16 +88,27 @@
     }
 
 
-    
+
 
 /* media query*/
 
     @media screen and (min-width: 768px){
-body{
-    text-align: start;
+.header{
+text-align: start;
+}
 }
 
 
+.main{
+    padding: 10;
+}
     }
-        
-    
+
+    @media screen and (min-width: 992px){
+      .col-8{ Tiramisù (Dolce tradizionale)
+
+
+        font-size: 28px;
+       }
+
+  
