@@ -95,6 +95,10 @@ ul {
         padding: 0;
         list-style: none;
     }
+
+    .banner{
+        display: none;
+    }
     
 
 
@@ -127,6 +131,19 @@ text-align: start;
 }
 
 
+.btn img {
+    width: 40px; 
+    /* Imposta la larghezza delle immagini a 40px, 
+    INVECE NON VA BENE
+     .btn{ img
+      width:40px;
+      }
+     */
+}
+
+.banner{
+    display: inline-block;
+}
 
 /*end query 768px*/
 
