@@ -79,7 +79,9 @@ ul {
     }
 
     
-
+.col-8-change{
+    display: none;
+}
 
  
 
@@ -96,19 +98,16 @@ ul {
 .header{
 text-align: start;
 }
+.col-8-change{
+    display: inline-block;
+  }
 }
 
-
-.main{
-    padding: 10;
-}
-    }
 
     @media screen and (min-width: 992px){
-      .col-8{ Tiramisù (Dolce tradizionale)
+      
 
-
-        font-size: 28px;
+    
        }
 
   
