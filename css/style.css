@@ -1,20 +1,36 @@
-.logo{
+
+
+
+.header{
     text-align: center;
     color: orange;
-    font-family:
+    font-family: 'nerko one', cursive;
+  
+    font-size: 52px;
+    text-shadow:    .8px 2px 0px rgb(156, 147, 147),   /* Ombra in basso a destra */
+    -2px 2px 0px #f6f5f3;  /* Ombra in basso a sinistra */
+    2px -2px 0px #f6f5f3;  /* Ombra in alto a destra */
+    -2px -2px 0px #f6f5f3;  /* Ombra in alto a sinistra */
+  
 }
 
 .container{
-    background-color: rgb(224, 216, 216);
+    background-color: #f6f5f3;
 
 }
 
 .container2{
-    background-color: rgb(224, 216, 216);
+    background-color:#f6f5f3;
 
 
    
 }
+
+.container3{
+    background-color: #f6f5f3;
+
+}
+
 
 .row{
    
@@ -33,8 +49,8 @@
 
 .foodcategory{
     text-align:start;
-    color: black;
-    font-family:'Courier New', Courier, monospace;
+    color:  rgb(224, 216, 216);;
+    font-family:Montserrat, 'Helvetica Neue', sans-serif;
 }
 
     .col-8 {
@@ -50,17 +66,26 @@
         width: calc((100% / 12) * 12);
     }
 
-.white{
-    background-color: white;
-}
     
 
 
  
 
-    #app-main{
-        background-color: rgb(224, 216, 216); 
-
+  .main{
+        background-color: #f6f4f3;
     }
 
+
+    
+
+/* media query*/
+
+    @media screen and (min-width: 768px){
+body{
+    text-align: start;
+}
+
+
+    }
+        
     
