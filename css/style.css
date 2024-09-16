@@ -21,6 +21,7 @@
    
 }
 
+
 .d-flex{
     display: flex;
 
@@ -49,7 +50,9 @@
         width: calc((100% / 12) * 12);
     }
 
-
+.white{
+    background-color: white;
+}
     
 
 
@@ -57,4 +60,12 @@
     /* For mobile phones: */
     [class*="col-"] {
       width: 100%;
+    }
+
+
+ 
+
+    #app-main{
+        background-color: rgb(224, 216, 216); 
+
     }
