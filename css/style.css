@@ -7,6 +7,7 @@
     font-size: 12px;
 }
 .header{
+    max-width: 360px;
     text-align: center;
     color: orange;
     font-family: 'nerko one', cursive;
@@ -101,13 +102,26 @@ ul {
     }
     
 
+    .presentation{
+        align-items: center;
+    }
+
 
 /* media query*/
 
     @media screen and (min-width: 768px){
-.header{
-text-align: start;
+
+
+    .header{
+     text-align: start;
 }
+
+
+/*.......*/
+
+
+
+
 .col-8-change{
     display: inline-block;
   }
@@ -143,6 +157,16 @@ text-align: start;
 
 .banner{
     display: inline-block;
+    width: 100%;
+}
+
+.piatto{
+    width: 100%;
+}
+
+.title{
+
+    text-align: center;
 }
 
 /*end query 768px*/
